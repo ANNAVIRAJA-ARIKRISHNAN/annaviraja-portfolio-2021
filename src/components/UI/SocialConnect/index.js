@@ -1,5 +1,8 @@
 import React from "react";
-import socialIcons from "../../../assets/social-icons";
+// import socialIcons from "../../../assets/social-icons";
+import facebook from "../../../assets/social-icons/facebook.png";
+import twitter from "../../../assets/social-icons/twitter.png";
+import linkedin from "../../../assets/social-icons/linkedin.png";
 import "./style.css";
 
 /**
@@ -14,16 +17,18 @@ const SocialConnect = (props) => {
       <a
         className="socialLink"
         href="https://www.facebook.com/annaviraja.arikrishnan"
+        rel="noopener noreferrer"
         target="_blank"
       >
-        <img src={socialIcons.facebook} alt="" />
+        <img src={facebook} alt="" />
       </a>
       <a
         className="socialLink"
         href="https://twitter.com/Annaviraja_A"
+        rel="noopener noreferrer"
         target="_blank"
       >
-        <img src={socialIcons.twitter} alt="" />
+        <img src={twitter} alt="" />
       </a>
       {/* <a className="socialLink" href="#">
         <img src={socialIcons.youtube} alt="" />
@@ -31,9 +36,11 @@ const SocialConnect = (props) => {
       <a
         className="socialLink"
         href="https://www.linkedin.com/in/annaviraja-arikrishnan/"
+        rel="noopener noreferrer"
         target="_blank"
       >
-        <img src={socialIcons.linkedin} alt="" />
+        {/* <img src={socialIcons.index} alt="" /> */}
+        <img src={linkedin} alt="" />
       </a>
     </div>
   );

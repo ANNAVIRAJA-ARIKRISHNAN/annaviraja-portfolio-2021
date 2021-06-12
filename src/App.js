@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Hero from "./components/Hero";
 import Specializing from "./components/Specializing";
 import Expertise from "./components/Expertise";
-import LatestProjects from "./components/LatestProjects";
+// import LatestProjects from "./components/LatestProjects";
 import Qualification from "./components/Qualification";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
@@ -26,7 +26,7 @@ const App = (props) => {
       <Hero />
       <Specializing />
       <Expertise />
-      <LatestProjects />
+      {/* <LatestProjects /> */}
       <Qualification />
       <Testimonials />
       <Footer />

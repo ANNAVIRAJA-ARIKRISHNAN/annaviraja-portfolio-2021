@@ -9,6 +9,10 @@ import "./style.css";
  **/
 
 const Footer = (props) => {
+  var functionforscroll = function (id) {
+    var element = document.getElementById(id);
+    if (element !== null) element.scrollIntoView(true);
+  };
   return (
     <div className="container">
       <div
@@ -20,11 +24,24 @@ const Footer = (props) => {
         </div>
         <div className="footerMenus mtb-10">
           <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Portfolios</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+            <a href="#home" onClick={functionforscroll("home")}>
+              Home
+            </a>
+            <a href="#experience" onClick={functionforscroll("experience")}>
+              Experience
+            </a>
+            <a href="#skills" onClick={functionforscroll("skills")}>
+              Skills
+            </a>
+            <a
+              href="#qualification"
+              onClick={functionforscroll("qualification")}
+            >
+              Qualification
+            </a>
+            <a href="#contact" onClick={functionforscroll("contact")}>
+              Contact
+            </a>
           </nav>
         </div>
         <div className="conversationContainer primaryBgColor mtb-10">

@@ -17,9 +17,13 @@ const percentage = 70;
 
 const Expertise = (props) => {
   return (
-    <div className="container" style={{ marginTop: "50px", padding: "50px 0" }}>
+    <div
+      id="skills"
+      className="container"
+      style={{ marginTop: "50px", padding: "50px 0" }}
+    >
       <div data-aos="fade-right" className="rightImgMeContainer">
-        <img src={me} alt-="" />
+        <img src={me} alt="Annavi Raja DP" />
         <SocialConnect style={{ position: "absolute", bottom: "-40px" }} />
       </div>
       <div>

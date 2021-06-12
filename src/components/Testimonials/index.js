@@ -52,7 +52,7 @@ const Testimonials = (props) => {
         </div>
       </div>
 
-      <Card className="m-auto contactCard">
+      <Card id="contact" className="m-auto contactCard">
         <p className="text-center font-12 mtb-10">
           Have any project in mind?{" "}
           <span className="primaryColor">Say Hello At</span>
